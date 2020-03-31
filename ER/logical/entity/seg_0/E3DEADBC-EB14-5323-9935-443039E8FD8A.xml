@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3DEADBC-EB14-5323-9935-443039E8FD8A" name="Turnir">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:25:39 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TURID" id="237B31EE-A844-34B4-434F-9B79D7B6EB33">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:25:45 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURNAZ" id="AE0E19C0-4674-4811-8164-F79FC51CD6CE">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:25:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURDATPOC" id="456AF221-7E03-ADA1-F1A8-4FCB4BA92EB2">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:26:26 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURDATZAV" id="010D5741-CED1-46EF-0963-EF3DFDE6FE5F">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:26:38 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURPOB" id="62711F5F-EA58-061D-388F-557436F98A3C">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:26:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID" id="2B0D2F1C-4638-91BE-6ED1-7721F994E04B">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:02 UTC</createdTime>
+<generatorID>6F9611F6-A909-1127-F732-26D42DA2A341</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>7F5203DE-2E9C-C2CD-3879-F9FF90C5CC64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35C3F9D8-09E6-AC78-450E-F91C89ADB0E3" name="Turnir PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:25:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>237B31EE-A844-34B4-434F-9B79D7B6EB33</attributeRef>
+<attributeRef>2B0D2F1C-4638-91BE-6ED1-7721F994E04B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

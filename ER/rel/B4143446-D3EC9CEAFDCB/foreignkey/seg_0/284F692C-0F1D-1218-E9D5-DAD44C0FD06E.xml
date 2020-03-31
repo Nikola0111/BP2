@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="284F692C-0F1D-1218-E9D5-DAD44C0FD06E" containerWithKeyObject="D069E866-6AE4-68A8-6CA2-5F74EEE2CF5D" localFKIndex="54060E8D-CCF1-A626-F5E5-DF35ADA593FC" name="Ugostiti_Sahovski_klub_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>BD9D9B86-494B-CF78-1B33-EBF5956C192A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>Sahovski_klub</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>835B87A5-6DB7-43BA-4451-B217D34DE48A</referredTableID>
+<keyObject>AFC1BA41-E4BD-4765-4265-2F93FBB3A91D</keyObject>
+<referredKeyID>AFC1BA41-E4BD-4765-4265-2F93FBB3A91D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KLUBID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

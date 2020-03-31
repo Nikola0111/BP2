@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAC8F731-2C83-1851-F60C-2AEC36156EFD" name="Sponzorise">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Turnir_TURID" id="799F06DB-EED2-9ED0-2A00-3DBCA73643ED">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E5FE8B5-E1FA-80AA-A3A3-CA761BC04C48" referredColumn="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB"/>
+</associations>
+</Column>
+<Column name="Turnir_Nacin_igranja_NACIGRID" id="DBCCFD5C-1384-C929-6F8A-759A40AC5331">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E5FE8B5-E1FA-80AA-A3A3-CA761BC04C48" referredColumn="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</associations>
+</Column>
+<Column name="Organizacija_ORGID" id="1542A1C6-D1C2-BE82-F68D-1FA231E18848">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3693A27-0F6B-5900-0F0C-6EC2282BB669" referredColumn="48ED7DD3-CA3C-83FD-0269-18E1C0A803FD"/>
+</associations>
+</Column>
+<Column name="SPONZSUMA" id="E76963DC-33A0-CFD5-2936-3B8420BB3CCC">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>274778A6-9D12-0021-BB86-A1B9605776C7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C4158ED-54F5-C301-8256-46ACEBEEDBC1" name="Sponzorise_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="799F06DB-EED2-9ED0-2A00-3DBCA73643ED"/>
+<colUsage columnID="DBCCFD5C-1384-C929-6F8A-759A40AC5331"/>
+<colUsage columnID="1542A1C6-D1C2-BE82-F68D-1FA231E18848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42497460-7771-BC15-EF84-F633BF94D029" name="Sponzorise_Turnir_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>57CD5FC6-C250-8623-6B89-7C909A8F242A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="799F06DB-EED2-9ED0-2A00-3DBCA73643ED"/>
+<colUsage columnID="DBCCFD5C-1384-C929-6F8A-759A40AC5331"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73C5F6F4-4544-27B7-4E1C-80D3943552C5" name="Sponzorise_Organizacija_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>57CD5FC6-C250-8623-6B89-7C909A8F242A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1542A1C6-D1C2-BE82-F68D-1FA231E18848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

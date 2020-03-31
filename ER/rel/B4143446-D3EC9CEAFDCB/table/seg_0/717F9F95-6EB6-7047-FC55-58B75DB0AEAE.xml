@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="717F9F95-6EB6-7047-FC55-58B75DB0AEAE" name="Takmicar">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>C7511D9A-E829-4BDB-259B-002CBB712F7F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TAKMID" id="DD4AFE5F-48B8-96A7-25AA-31432E0FC0ED">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>8A30EC14-F6AB-1B69-4A37-325C52B9AC54</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAKMIME" id="405EE119-D980-B7F4-448C-C4764515E919">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>629F3AA2-A455-CA98-D5FA-2B4F9CBA933C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAKMPRZ" id="6AE8299D-4ED6-64F5-35AF-2B01112E52CE">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>4E28E1D1-C1EF-E911-6E08-B4A3ED824C24</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sahovski_klub_KLUBID" id="4DE66E19-73F9-D150-A793-3D1B7B51182A">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>66A9B700-4599-6949-A312-572215123EA4</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECA04AA2-9470-B157-0B8C-724C5F87930F" referredColumn="5FD596CE-1B38-3E1A-CC8D-16810F600575"/>
+</associations>
+</Column>
+<Column name="BRBOD" id="63A9594F-3811-07CF-FF1E-9CCE00B75DA8">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-29 09:20:34 UTC</createdTime>
+<generatorID>81DF0F75-AACA-F3D9-7750-97DAEB575ABE</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>ECA04AA2-9470-B157-0B8C-724C5F87930F</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12E101B7-44F2-88B6-B0BE-AC62425DACFD" name="Takmicar_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>2B9BD8E5-78C6-9B83-5013-26DAADEE1103</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD4AFE5F-48B8-96A7-25AA-31432E0FC0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C9D5A6D-DE0A-121D-67EA-2FA570DCE305" name="Takmicar_Sahovski_klub_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>49BBF0EA-68D4-FBF6-51BF-6F28E6BE74D5</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DE66E19-73F9-D150-A793-3D1B7B51182A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

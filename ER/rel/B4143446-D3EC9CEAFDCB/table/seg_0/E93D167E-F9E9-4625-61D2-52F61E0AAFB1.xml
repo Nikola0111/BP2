@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E93D167E-F9E9-4625-61D2-52F61E0AAFB1" name="Mec">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>C17DD244-347D-B89E-1369-93733BD9BD4E</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MECID" id="C76BB51B-668D-0FF1-0D9E-EC90F877CA29">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>6255017A-D0E2-71AB-5AB3-4716A8537386</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BDD47C-73DB-9F6D-149D-E8E8FDB402B2" referredColumn="084F6D81-47A4-98D8-30F0-AAF062CD036C"/>
+</associations>
+</Column>
+<Column name="MECBRPOT" id="33341035-84E2-1178-CB2B-51E1C25E9CC0">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>42EF1314-C9F6-1A80-0BE2-0C4DAB765B00</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MECDATPOC" id="4E230726-E38B-DD90-6189-DFB7664A6EED">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>149658B4-39F8-85A8-10DC-2DA49CD2E833</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolo_KOLOBR" id="61969323-BA5A-C8E1-0A5A-38D7F154607A">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>16946E17-BE44-1D17-3A69-20CA386E2F41</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BDD47C-73DB-9F6D-149D-E8E8FDB402B2" referredColumn="313CB498-E281-3875-4BDB-EE5A3AA7A16D"/>
+<colAssociation fkAssociation="1A8A91CE-8876-4285-45B8-93C221359548" referredColumn="45BDD90B-ECC7-0FB9-0100-D9A047FEAE55"/>
+</associations>
+</Column>
+<Column name="Kolo_Turnir_TURID" id="ACC1DCD9-1552-C9C7-5E74-E154444BCC1D">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>B3A97FDD-8AF7-2F44-BA4B-F81CCBF39A4A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BDD47C-73DB-9F6D-149D-E8E8FDB402B2" referredColumn="419EE306-E2E7-390D-EEA4-6FE12433BD27"/>
+<colAssociation fkAssociation="1A8A91CE-8876-4285-45B8-93C221359548" referredColumn="C0C4E335-6C1A-E154-EC3A-88235D2C73D0"/>
+</associations>
+</Column>
+<Column name="Kolo_Turnir_Nacin_igranja_NACIGRID" id="5D8F92E8-3D47-5C16-EBFD-539E9CC4FD2B">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>9FC8120E-D0E0-1047-9541-BC84045520AF</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BDD47C-73DB-9F6D-149D-E8E8FDB402B2" referredColumn="05E45167-E5F1-33D9-5151-7E62F8B6482F"/>
+<colAssociation fkAssociation="1A8A91CE-8876-4285-45B8-93C221359548" referredColumn="253ED547-EB82-F484-18BE-37991F77E31E"/>
+</associations>
+</Column>
+<Column name="MECPOB" id="14D13B56-241A-ACAA-BDB6-16768CB211C6">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>4A6B83CA-6EC0-C351-5FBC-B9EED53E8241</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igraju_mec_Takmicar_ucestvuje_Takmicar_TAKMID" id="0BBB71B5-A4C7-2174-0432-F1DE9D015EB1">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-29 09:20:34 UTC</createdTime>
+<generatorID>1F93AB0B-BF95-B9EA-2EBE-9118B4616D2D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BDD47C-73DB-9F6D-149D-E8E8FDB402B2" referredColumn="60DDEC6D-8B24-660D-55AF-684CC66F1FD7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E1F924A-75D3-B650-5616-C98AB9017010" name="Mec_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>4B0D48D9-6249-C6F1-DD26-8835813AA3F3</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C76BB51B-668D-0FF1-0D9E-EC90F877CA29"/>
+<colUsage columnID="61969323-BA5A-C8E1-0A5A-38D7F154607A"/>
+<colUsage columnID="ACC1DCD9-1552-C9C7-5E74-E154444BCC1D"/>
+<colUsage columnID="5D8F92E8-3D47-5C16-EBFD-539E9CC4FD2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="232ED81B-3BF1-32F4-BC45-AEDFAF708D09" name="Mec_Kolo_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>2A4EEF90-15B0-2305-9004-2B8454D15D4F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61969323-BA5A-C8E1-0A5A-38D7F154607A"/>
+<colUsage columnID="ACC1DCD9-1552-C9C7-5E74-E154444BCC1D"/>
+<colUsage columnID="5D8F92E8-3D47-5C16-EBFD-539E9CC4FD2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF66FA17-54AE-3901-85E2-E0889EC32582" name="Mec_Igraju_mec_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-29 09:20:34 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BBB71B5-A4C7-2174-0432-F1DE9D015EB1"/>
+<colUsage columnID="ACC1DCD9-1552-C9C7-5E74-E154444BCC1D"/>
+<colUsage columnID="5D8F92E8-3D47-5C16-EBFD-539E9CC4FD2B"/>
+<colUsage columnID="C76BB51B-668D-0FF1-0D9E-EC90F877CA29"/>
+<colUsage columnID="61969323-BA5A-C8E1-0A5A-38D7F154607A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

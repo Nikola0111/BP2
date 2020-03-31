@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="clan" directorySegmentName="seg_0" id="49BBF0EA-68D4-FBF6-51BF-6F28E6BE74D5">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:46:14 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>0F59B0A6-3CB6-D37C-64A1-9C34E553DDFA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>moze biti clan</nameOnSource>
+<nameOnTarget>mora imati clanove</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23A4EA82-0580-D2A9-E2A6-B7AB04F6B14D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7511D9A-E829-4BDB-259B-002CBB712F7F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="BRBOD" id="81DF0F75-AACA-F3D9-7750-97DAEB575ABE">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-26 12:49:34 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

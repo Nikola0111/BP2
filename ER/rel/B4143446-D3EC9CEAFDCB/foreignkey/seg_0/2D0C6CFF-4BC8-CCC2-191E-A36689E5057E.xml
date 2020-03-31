@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D0C6CFF-4BC8-CCC2-191E-A36689E5057E" containerWithKeyObject="C8404511-9EF1-2896-35FE-55B3CE88D763" localFKIndex="650B1091-D55B-1A7D-B352-B5EDDD85AD4E" name="Takmicar_ucestvuje_Takmicar_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>C1A170AD-35CC-04D5-E041-BC388D117765</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>Takmicar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>717F9F95-6EB6-7047-FC55-58B75DB0AEAE</referredTableID>
+<keyObject>12E101B7-44F2-88B6-B0BE-AC62425DACFD</keyObject>
+<referredKeyID>12E101B7-44F2-88B6-B0BE-AC62425DACFD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TAKMID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

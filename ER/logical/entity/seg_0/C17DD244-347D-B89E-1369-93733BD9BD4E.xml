@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C17DD244-347D-B89E-1369-93733BD9BD4E" name="Mec">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:04 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MECID" id="6255017A-D0E2-71AB-5AB3-4716A8537386">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:08 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MECBRPOT" id="42EF1314-C9F6-1A80-0BE2-0C4DAB765B00">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:26 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MECDATPOC" id="149658B4-39F8-85A8-10DC-2DA49CD2E833">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:35 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOLOBR" id="16946E17-BE44-1D17-3A69-20CA386E2F41">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:54 UTC</createdTime>
+<generatorID>2A4EEF90-15B0-2305-9004-2B8454D15D4F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>D0D592E9-F0DB-DAB3-D026-BB701D7A65E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID" id="B3A97FDD-8AF7-2F44-BA4B-F81CCBF39A4A">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:54 UTC</createdTime>
+<generatorID>2A4EEF90-15B0-2305-9004-2B8454D15D4F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>39C62BA6-E698-4817-BF53-84B0C76294EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID" id="9FC8120E-D0E0-1047-9541-BC84045520AF">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:54 UTC</createdTime>
+<generatorID>2A4EEF90-15B0-2305-9004-2B8454D15D4F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>75FBD258-9999-EB82-A9EE-39B54BA5EB26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MECPOB" id="4A6B83CA-6EC0-C351-5FBC-B9EED53E8241">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:26:46 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TAKMID" id="1F93AB0B-BF95-B9EA-2EBE-9118B4616D2D">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>97F4B2A9-F355-53FF-30FA-3481C51478B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID1" id="38D960FC-63C3-C143-86FE-A1F30B024458">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>714C3C97-EF44-87BD-391F-1A504F5239FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID1" id="80ED6C9F-AAF3-A882-E3E1-58407FF6F93C">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>923148C1-DE56-630A-21F3-AF81611C33B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MECID1" id="25D078E0-297D-6486-C3E2-650E59503B91">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3A3257A7-22A5-3810-E3B1-30DA5E2FD267</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOLOBR1" id="CDB7876B-ECF9-708B-998D-70B9EE186973">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F98EBD4F-BF85-9FCE-B811-8EF4D28024FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID11" id="A9788ED0-5B55-8D32-16E1-29CF99D08929">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>09ABE3AB-74ED-8C3E-AF96-F3857B0DA70E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID11" id="66381D33-EAF3-420A-303F-406432C97D3C">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 20:03:33 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F605BEEE-A26E-6905-8F52-37B874B49F9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B0D48D9-6249-C6F1-DD26-8835813AA3F3" name="Mec PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:31:16 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6255017A-D0E2-71AB-5AB3-4716A8537386</attributeRef>
+<attributeRef>16946E17-BE44-1D17-3A69-20CA386E2F41</attributeRef>
+<attributeRef>B3A97FDD-8AF7-2F44-BA4B-F81CCBF39A4A</attributeRef>
+<attributeRef>9FC8120E-D0E0-1047-9541-BC84045520AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

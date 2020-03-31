@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Igra se" directorySegmentName="seg_0" id="6F9611F6-A909-1127-F732-26D42DA2A341">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:28:08 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>8B2B9232-1924-F13F-789B-740864CE7429</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>je igran</nameOnSource>
+<nameOnTarget>je odigran</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D94C57A-2452-D11E-6E08-4674148D0375</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3DEADBC-EB14-5323-9935-443039E8FD8A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

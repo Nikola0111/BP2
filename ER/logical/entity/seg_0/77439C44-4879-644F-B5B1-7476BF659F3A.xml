@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77439C44-4879-644F-B5B1-7476BF659F3A" name="Igraju mec">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:49:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TAKMID" id="97F4B2A9-F355-53FF-30FA-3481C51478B6">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:58 UTC</createdTime>
+<generatorID>62887A19-B84D-0092-FE3F-4E83CFA47132</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>CA178467-2605-3A75-2DC2-4085D7667769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID" id="714C3C97-EF44-87BD-391F-1A504F5239FA">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:58 UTC</createdTime>
+<generatorID>62887A19-B84D-0092-FE3F-4E83CFA47132</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="false"/>
+</engineerTo>
+<referedAttribute>3D7D91AE-D380-EEED-DEED-208435F99E88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID" id="923148C1-DE56-630A-21F3-AF81611C33B5">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:58 UTC</createdTime>
+<generatorID>62887A19-B84D-0092-FE3F-4E83CFA47132</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="false"/>
+</engineerTo>
+<referedAttribute>245EB503-EF9C-7ACB-A175-2A78D494A041</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MECID" id="3A3257A7-22A5-3810-E3B1-30DA5E2FD267">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:51:24 UTC</createdTime>
+<generatorID>AA8C62D1-4848-9E72-108E-B7086196EFEB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>6255017A-D0E2-71AB-5AB3-4716A8537386</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOLOBR" id="F98EBD4F-BF85-9FCE-B811-8EF4D28024FF">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:51:24 UTC</createdTime>
+<generatorID>AA8C62D1-4848-9E72-108E-B7086196EFEB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>16946E17-BE44-1D17-3A69-20CA386E2F41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID1" id="09ABE3AB-74ED-8C3E-AF96-F3857B0DA70E">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:51:24 UTC</createdTime>
+<generatorID>AA8C62D1-4848-9E72-108E-B7086196EFEB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>B3A97FDD-8AF7-2F44-BA4B-F81CCBF39A4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID1" id="F605BEEE-A26E-6905-8F52-37B874B49F9F">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:51:24 UTC</createdTime>
+<generatorID>AA8C62D1-4848-9E72-108E-B7086196EFEB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>9FC8120E-D0E0-1047-9541-BC84045520AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4E26023-31AB-C895-815E-2B2C18B4796B" name="Igraju mec PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:58 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97F4B2A9-F355-53FF-30FA-3481C51478B6</attributeRef>
+<attributeRef>714C3C97-EF44-87BD-391F-1A504F5239FA</attributeRef>
+<attributeRef>923148C1-DE56-630A-21F3-AF81611C33B5</attributeRef>
+<attributeRef>3A3257A7-22A5-3810-E3B1-30DA5E2FD267</attributeRef>
+<attributeRef>F98EBD4F-BF85-9FCE-B811-8EF4D28024FF</attributeRef>
+<attributeRef>09ABE3AB-74ED-8C3E-AF96-F3857B0DA70E</attributeRef>
+<attributeRef>F605BEEE-A26E-6905-8F52-37B874B49F9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

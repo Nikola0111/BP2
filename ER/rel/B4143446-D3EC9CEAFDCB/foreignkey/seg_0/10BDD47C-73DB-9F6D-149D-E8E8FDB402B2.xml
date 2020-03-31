@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10BDD47C-73DB-9F6D-149D-E8E8FDB402B2" containerWithKeyObject="E93D167E-F9E9-4625-61D2-52F61E0AAFB1" localFKIndex="EF66FA17-54AE-3901-85E2-E0889EC32582" name="Mec_Igraju_mec_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-29 09:20:34 UTC</createdTime>
+<generatorID>4F699E22-22CD-D8AE-9621-B604CDEB5806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>Igraju_mec</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35F17DDF-DA02-50C2-8F60-6EB8FDEC825B</referredTableID>
+<keyObject>C237122C-C85A-17F4-EB67-1D8B8FCAFBFF</keyObject>
+<referredKeyID>C237122C-C85A-17F4-EB67-1D8B8FCAFBFF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Takmicar_ucestvuje_Takmicar_TAKMID,Mec_Kolo_TURID,Mec_Kolo_NACIGRID,Mec_MECID,Mec_Kolo_KOLOBR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

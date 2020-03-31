@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="221FEABA-8A14-B613-0A91-9EE5A7F0D38F" name="Turnir">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>E3DEADBC-EB14-5323-9935-443039E8FD8A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TURID" id="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>237B31EE-A844-34B4-434F-9B79D7B6EB33</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURNAZ" id="F4D0C5B9-3D8F-2EC8-82C0-664633C9C1A2">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>AE0E19C0-4674-4811-8164-F79FC51CD6CE</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURDATPOC" id="AA1F9F55-CF46-5397-1EA2-9871EE477EF2">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>456AF221-7E03-ADA1-F1A8-4FCB4BA92EB2</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURDATZAV" id="FAE3BBF6-891D-1619-ABD1-2D93C399B27B">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>010D5741-CED1-46EF-0963-EF3DFDE6FE5F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURPOB" id="D35A6EEA-2D27-D81D-9C39-1B90FAEDCA0D">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>62711F5F-EA58-061D-388F-557436F98A3C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacin_igranja_NACIGRID" id="29BA9900-2418-C6CF-D3F2-CE27E0308875">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>2B0D2F1C-4638-91BE-6ED1-7721F994E04B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7F47959-A4B5-D909-250F-52FCBFB46982" referredColumn="5A89A29E-D9E5-14D1-697C-4722CB786AB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45CB168A-D313-12C4-0D56-BFA1799F74C9" name="Turnir_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>35C3F9D8-09E6-AC78-450E-F91C89ADB0E3</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB"/>
+<colUsage columnID="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0285A663-16C6-383A-5239-93DC0401A88A" name="Turnir_Nacin_igranja_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>6F9611F6-A909-1127-F732-26D42DA2A341</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

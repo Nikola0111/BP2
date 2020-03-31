@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B11E08F-6516-D551-009F-A66F9A58AC99" name="Kolo">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F6B29133-AC1C-865A-7F75-1CFB7BC799AF</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOLOBR" id="45BDD90B-ECC7-0FB9-0100-D9A047FEAE55">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>D0D592E9-F0DB-DAB3-D026-BB701D7A65E1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOLOBRTAKM" id="302159F7-BDA2-82AB-4DF6-44F15B9A347F">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>DB8FC8FB-A9D6-E057-C389-E452701A50B1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turnir_TURID" id="C0C4E335-6C1A-E154-EC3A-88235D2C73D0">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>39C62BA6-E698-4817-BF53-84B0C76294EB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FAE49CE-FC34-840E-AAC6-9AC7DB3ACFA9" referredColumn="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB"/>
+</associations>
+</Column>
+<Column name="Turnir_Nacin_igranja_NACIGRID" id="253ED547-EB82-F484-18BE-37991F77E31E">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>75FBD258-9999-EB82-A9EE-39B54BA5EB26</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FAE49CE-FC34-840E-AAC6-9AC7DB3ACFA9" referredColumn="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78E25FC3-E363-3D85-B9E0-2BBF2EDC7E35" name="Kolo_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>2A800F28-3C7D-CD2B-EE2A-2C8EEBEF1A0F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45BDD90B-ECC7-0FB9-0100-D9A047FEAE55"/>
+<colUsage columnID="C0C4E335-6C1A-E154-EC3A-88235D2C73D0"/>
+<colUsage columnID="253ED547-EB82-F484-18BE-37991F77E31E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16514CCF-7B29-ABFA-3C85-1952E555A48D" name="Kolo_Turnir_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>D6A5AEEB-E9EF-C9BD-6FEA-29521D757199</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0C4E335-6C1A-E154-EC3A-88235D2C73D0"/>
+<colUsage columnID="253ED547-EB82-F484-18BE-37991F77E31E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

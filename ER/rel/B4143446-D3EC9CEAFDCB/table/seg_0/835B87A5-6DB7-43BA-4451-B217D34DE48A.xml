@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="835B87A5-6DB7-43BA-4451-B217D34DE48A" name="Sahovski_klub">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>23A4EA82-0580-D2A9-E2A6-B7AB04F6B14D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KLUBID" id="5FD596CE-1B38-3E1A-CC8D-16810F600575">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>34E17BB1-DB65-E648-117A-788F221AF71F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLUBNAZ" id="D56BA584-57E3-E611-1B18-4D45CB22803A">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>2D168E1D-8728-3F1C-D574-45D03E958EB9</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLUBADR" id="3AC87FD9-EE45-7C2D-F959-98C51727CFB5">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>C7FD8B21-1861-8240-86BC-AF98FAE18D76</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLUBRCL" id="6E1518B5-774E-6DA6-499E-6E360EB98309">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>6CBD77FB-A998-B036-2766-BC0B0C1279DB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Organizacija_ORGID" id="EC2C4B9F-139C-7F21-9F4C-51FA6FF32096">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>E40E8B24-097E-357B-3545-89E0C867ACCC</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="584E3DF7-8226-C646-7DAB-7601638713AC" referredColumn="48ED7DD3-CA3C-83FD-0269-18E1C0A803FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFC1BA41-E4BD-4765-4265-2F93FBB3A91D" name="Sahovski_klub_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>0F59B0A6-3CB6-D37C-64A1-9C34E553DDFA</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD596CE-1B38-3E1A-CC8D-16810F600575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="810AB353-5533-635E-DBCD-33CC622FE40B" name="Sahovski_klub__IDX">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C578DDB8-4877-8D7C-A7C2-3C7C2BE7E104</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EC2C4B9F-139C-7F21-9F4C-51FA6FF32096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78B14514-7B0D-D07A-BC0A-F70C6B9D9E24" name="Sahovski_klub_Organizacija_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>C578DDB8-4877-8D7C-A7C2-3C7C2BE7E104</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC2C4B9F-139C-7F21-9F4C-51FA6FF32096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rangiran" directorySegmentName="seg_0" id="87B3A026-5A12-810A-9A99-240465E1C4F1">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:48:46 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>je rangiran</nameOnSource>
+<nameOnTarget>rangira</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BF3DE895-A2E5-108E-89A9-50E79BD7D592</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7511D9A-E829-4BDB-259B-002CBB712F7F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="BRBOD" id="EFB56020-8F92-3A7C-A88D-6336075B0C4A">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 12:36:46 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="RANGMESTO" id="130C58F3-EECF-AB43-34C9-D813F395CD6D">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 12:36:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

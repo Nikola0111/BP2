@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D069E866-6AE4-68A8-6CA2-5F74EEE2CF5D" name="Ugostiti">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sahovski_klub_KLUBID" id="CCBDDB0C-8737-2893-4B19-56C622B16FA3">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="284F692C-0F1D-1218-E9D5-DAD44C0FD06E" referredColumn="5FD596CE-1B38-3E1A-CC8D-16810F600575"/>
+</associations>
+</Column>
+<Column name="Turnir_TURID" id="EB94C19E-00EF-4988-7EF5-3D5C4B4B4E31">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BCD2A52-9D00-9FDC-B011-1522FC3ABE75" referredColumn="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB"/>
+</associations>
+</Column>
+<Column name="Turnir_Nacin_igranja_NACIGRID" id="93305A46-549D-4446-20BC-A3B5EAD0A2A5">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BCD2A52-9D00-9FDC-B011-1522FC3ABE75" referredColumn="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</associations>
+</Column>
+<Column name="UGOSBRDANA" id="8A4792F6-F343-0831-976F-5BB49F17CDE8">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>577EE178-1555-00F5-DB7B-2D48A4C8087D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EF9B9A9-311E-7A41-C33E-B8BC3CB37418" name="Ugostiti_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCBDDB0C-8737-2893-4B19-56C622B16FA3"/>
+<colUsage columnID="EB94C19E-00EF-4988-7EF5-3D5C4B4B4E31"/>
+<colUsage columnID="93305A46-549D-4446-20BC-A3B5EAD0A2A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54060E8D-CCF1-A626-F5E5-DF35ADA593FC" name="Ugostiti_Sahovski_klub_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>BD9D9B86-494B-CF78-1B33-EBF5956C192A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCBDDB0C-8737-2893-4B19-56C622B16FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50588172-6C44-1B10-DAFD-2928EAF6BE3D" name="Ugostiti_Turnir_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>BD9D9B86-494B-CF78-1B33-EBF5956C192A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB94C19E-00EF-4988-7EF5-3D5C4B4B4E31"/>
+<colUsage columnID="93305A46-549D-4446-20BC-A3B5EAD0A2A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

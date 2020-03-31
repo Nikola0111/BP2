@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F383B53B-2276-BFE9-E891-15CFCEE54B28" name="Organizuje">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Turnir_TURID" id="7199BC12-4302-3770-6D58-78D9E249B009">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1EF788F-D355-B7E7-850B-7C0C0A92715A" referredColumn="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB"/>
+</associations>
+</Column>
+<Column name="Turnir_NACIGRID" id="DD9FEEA2-0058-7FA3-3E24-9717467CAEC5">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1EF788F-D355-B7E7-850B-7C0C0A92715A" referredColumn="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</associations>
+</Column>
+<Column name="Organizacija_ORGID" id="FF98BE24-4327-C986-64CC-E4AA71155524">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BA5C5D7-C07C-FEAB-1C4B-D47EF57FBB7F" referredColumn="48ED7DD3-CA3C-83FD-0269-18E1C0A803FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3BB4A07-79CA-DADF-8B3D-0F8F831C7CEC" name="Organizuje_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7199BC12-4302-3770-6D58-78D9E249B009"/>
+<colUsage columnID="DD9FEEA2-0058-7FA3-3E24-9717467CAEC5"/>
+<colUsage columnID="FF98BE24-4327-C986-64CC-E4AA71155524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="871BC293-4DAB-8935-A743-2BB7ECDB4894" name="Organizuje_Turnir_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>685B982D-624A-AD67-1445-9B12DBD83DA7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7199BC12-4302-3770-6D58-78D9E249B009"/>
+<colUsage columnID="DD9FEEA2-0058-7FA3-3E24-9717467CAEC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="192D9C7A-74DE-55B5-0C27-2BDBC4BC8C9D" name="Organizuje_Organizacija_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>685B982D-624A-AD67-1445-9B12DBD83DA7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF98BE24-4327-C986-64CC-E4AA71155524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

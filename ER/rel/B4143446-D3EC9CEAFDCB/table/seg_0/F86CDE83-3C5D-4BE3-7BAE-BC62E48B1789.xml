@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F86CDE83-3C5D-4BE3-7BAE-BC62E48B1789" name="Lista">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>BF3DE895-A2E5-108E-89A9-50E79BD7D592</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RLID" id="8CD478CA-652E-EDBD-B8CC-DA687D055A79">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>39CAE00C-0313-44CF-7D5B-589466F571DA</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RLNAZ" id="E4CE2AA2-1692-7753-97F1-C781F4E17AE0">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>592933C6-470B-F5FE-C21F-DCDCE0D5B9A1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacin_igranja_NACIGRID" id="E7DF14A7-3C97-AEDE-072E-C39CAA03E48D">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>42D52633-C007-C819-49BE-B096CE0284D9</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B4A1033-1888-F2CF-7EF0-BAF53497FBCB" referredColumn="5A89A29E-D9E5-14D1-697C-4722CB786AB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A263AE5E-7CD5-224E-8A2F-AF177A3035B4" name="Lista_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>E35CC299-A5D6-BEC2-6A15-E98BF0577826</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD478CA-652E-EDBD-B8CC-DA687D055A79"/>
+<colUsage columnID="E7DF14A7-3C97-AEDE-072E-C39CAA03E48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93706FD4-31E7-8AD3-CD4F-964694F4D0E8" name="Lista__IDX">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-29 09:20:34 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E6988FBC-AC84-D555-B14E-BC2E8D561582</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E7DF14A7-3C97-AEDE-072E-C39CAA03E48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D499FC8-FD7A-A82F-F2D5-54DAAA7B9A0E" name="Lista_Nacin_igranja_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>E6988FBC-AC84-D555-B14E-BC2E8D561582</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7DF14A7-3C97-AEDE-072E-C39CAA03E48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

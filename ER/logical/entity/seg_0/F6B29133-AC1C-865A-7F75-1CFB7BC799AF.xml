@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6B29133-AC1C-865A-7F75-1CFB7BC799AF" name="Kolo">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:09 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOLOBR" id="D0D592E9-F0DB-DAB3-D026-BB701D7A65E1">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:13 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOLOBRTAKM" id="DB8FC8FB-A9D6-E057-C389-E452701A50B1">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:23 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID" id="39C62BA6-E698-4817-BF53-84B0C76294EB">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:52 UTC</createdTime>
+<generatorID>D6A5AEEB-E9EF-C9BD-6FEA-29521D757199</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>237B31EE-A844-34B4-434F-9B79D7B6EB33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID" id="75FBD258-9999-EB82-A9EE-39B54BA5EB26">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:52 UTC</createdTime>
+<generatorID>D6A5AEEB-E9EF-C9BD-6FEA-29521D757199</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>2B0D2F1C-4638-91BE-6ED1-7721F994E04B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A800F28-3C7D-CD2B-EE2A-2C8EEBEF1A0F" name="Kolo PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:29:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0D592E9-F0DB-DAB3-D026-BB701D7A65E1</attributeRef>
+<attributeRef>39C62BA6-E698-4817-BF53-84B0C76294EB</attributeRef>
+<attributeRef>75FBD258-9999-EB82-A9EE-39B54BA5EB26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

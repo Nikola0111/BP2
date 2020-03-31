@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF3DE895-A2E5-108E-89A9-50E79BD7D592" name="Lista">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:47:00 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RLID" id="39CAE00C-0313-44CF-7D5B-589466F571DA">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:47:14 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RLNAZ" id="592933C6-470B-F5FE-C21F-DCDCE0D5B9A1">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:47:19 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID" id="159506BC-8048-E38B-73B3-5EBD5691D463">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-28 19:12:53 UTC</createdTime>
+<generatorID>E6988FBC-AC84-D555-B14E-BC2E8D561582</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>7F5203DE-2E9C-C2CD-3879-F9FF90C5CC64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E35CC299-A5D6-BEC2-6A15-E98BF0577826" name="Lista PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:47:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39CAE00C-0313-44CF-7D5B-589466F571DA</attributeRef>
+<attributeRef>159506BC-8048-E38B-73B3-5EBD5691D463</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

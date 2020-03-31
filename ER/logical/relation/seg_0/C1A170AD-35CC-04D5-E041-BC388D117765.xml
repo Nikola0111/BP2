@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Takmicar ucestvuje" directorySegmentName="seg_0" id="C1A170AD-35CC-04D5-E041-BC388D117765">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:23 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>2B9BD8E5-78C6-9B83-5013-26DAADEE1103</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C7511D9A-E829-4BDB-259B-002CBB712F7F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>86DB5B94-958B-A8D1-1F49-E82D0D39704A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

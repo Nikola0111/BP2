@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pobedjuje" directorySegmentName="seg_0" id="4F699E22-22CD-D8AE-9621-B604CDEB5806">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:52:01 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>F4E26023-31AB-C895-815E-2B2C18B4796B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>moze imati pobednika</nameOnSource>
+<nameOnTarget>mogu pobediti</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77439C44-4879-644F-B5B1-7476BF659F3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C17DD244-347D-B89E-1369-93733BD9BD4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="MECPOB" id="7CE08005-4269-8ED3-D417-0B53DF4DC34C">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 21:00:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mec igraju ucesnici" directorySegmentName="seg_0" id="AA8C62D1-4848-9E72-108E-B7086196EFEB">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:51:24 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>4B0D48D9-6249-C6F1-DD26-8835813AA3F3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C17DD244-347D-B89E-1369-93733BD9BD4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>77439C44-4879-644F-B5B1-7476BF659F3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

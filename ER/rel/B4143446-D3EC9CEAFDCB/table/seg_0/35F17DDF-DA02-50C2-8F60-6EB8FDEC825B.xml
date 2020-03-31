@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35F17DDF-DA02-50C2-8F60-6EB8FDEC825B" name="Igraju_mec">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>77439C44-4879-644F-B5B1-7476BF659F3A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Takmicar_ucestvuje_Takmicar_TAKMID" id="60DDEC6D-8B24-660D-55AF-684CC66F1FD7">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>97F4B2A9-F355-53FF-30FA-3481C51478B6</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA8AC1BF-BC08-18E8-319D-8DFF46CE3671" referredColumn="6078DC73-D5AA-598D-3BF3-03C3FAA75F93"/>
+</associations>
+</Column>
+<Column name="Mec_MECID" id="084F6D81-47A4-98D8-30F0-AAF062CD036C">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>3A3257A7-22A5-3810-E3B1-30DA5E2FD267</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A647F9-AFAF-A206-0276-5FF1F29F8453" referredColumn="C76BB51B-668D-0FF1-0D9E-EC90F877CA29"/>
+</associations>
+</Column>
+<Column name="Mec_Kolo_KOLOBR" id="313CB498-E281-3875-4BDB-EE5A3AA7A16D">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F98EBD4F-BF85-9FCE-B811-8EF4D28024FF</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A647F9-AFAF-A206-0276-5FF1F29F8453" referredColumn="61969323-BA5A-C8E1-0A5A-38D7F154607A"/>
+</associations>
+</Column>
+<Column name="Mec_Kolo_TURID" id="419EE306-E2E7-390D-EEA4-6FE12433BD27">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>09ABE3AB-74ED-8C3E-AF96-F3857B0DA70E</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A647F9-AFAF-A206-0276-5FF1F29F8453" referredColumn="ACC1DCD9-1552-C9C7-5E74-E154444BCC1D"/>
+<colAssociation fkAssociation="FA8AC1BF-BC08-18E8-319D-8DFF46CE3671" referredColumn="731F2584-8BB9-83F0-DD94-792D5256BCD4"/>
+</associations>
+</Column>
+<Column name="Mec_Kolo_NACIGRID" id="05E45167-E5F1-33D9-5151-7E62F8B6482F">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F605BEEE-A26E-6905-8F52-37B874B49F9F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9A647F9-AFAF-A206-0276-5FF1F29F8453" referredColumn="5D8F92E8-3D47-5C16-EBFD-539E9CC4FD2B"/>
+<colAssociation fkAssociation="FA8AC1BF-BC08-18E8-319D-8DFF46CE3671" referredColumn="9D3896F6-30D6-5D8F-655A-545193D8AD93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C237122C-C85A-17F4-EB67-1D8B8FCAFBFF" name="Igraju_mec_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F4E26023-31AB-C895-815E-2B2C18B4796B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60DDEC6D-8B24-660D-55AF-684CC66F1FD7"/>
+<colUsage columnID="419EE306-E2E7-390D-EEA4-6FE12433BD27"/>
+<colUsage columnID="05E45167-E5F1-33D9-5151-7E62F8B6482F"/>
+<colUsage columnID="084F6D81-47A4-98D8-30F0-AAF062CD036C"/>
+<colUsage columnID="313CB498-E281-3875-4BDB-EE5A3AA7A16D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E4C45C-4073-5A72-9CDE-F5F431E83E5F" name="Igraju_mec_Mec_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>AA8C62D1-4848-9E72-108E-B7086196EFEB</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="084F6D81-47A4-98D8-30F0-AAF062CD036C"/>
+<colUsage columnID="313CB498-E281-3875-4BDB-EE5A3AA7A16D"/>
+<colUsage columnID="419EE306-E2E7-390D-EEA4-6FE12433BD27"/>
+<colUsage columnID="05E45167-E5F1-33D9-5151-7E62F8B6482F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E8DB787-1071-A6DE-90CB-5C8F9A7DA659" name="Igraju_mec_Takmicar_ucestvuje_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>62887A19-B84D-0092-FE3F-4E83CFA47132</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60DDEC6D-8B24-660D-55AF-684CC66F1FD7"/>
+<colUsage columnID="419EE306-E2E7-390D-EEA4-6FE12433BD27"/>
+<colUsage columnID="05E45167-E5F1-33D9-5151-7E62F8B6482F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

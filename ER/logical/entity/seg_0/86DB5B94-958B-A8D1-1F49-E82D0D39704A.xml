@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86DB5B94-958B-A8D1-1F49-E82D0D39704A" name="Takmicar ucestvuje">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:49:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TAKMBRPOB" id="F77BC678-2CFE-C60E-3EA5-EE605E6E4E75">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:49:44 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TAKMID" id="CA178467-2605-3A75-2DC2-4085D7667769">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:23 UTC</createdTime>
+<generatorID>C1A170AD-35CC-04D5-E041-BC388D117765</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>8A30EC14-F6AB-1B69-4A37-325C52B9AC54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURID" id="3D7D91AE-D380-EEED-DEED-208435F99E88">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:42 UTC</createdTime>
+<generatorID>F0E926A0-F606-C69A-5011-01B4A19C8BBD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>237B31EE-A844-34B4-434F-9B79D7B6EB33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIGRID" id="245EB503-EF9C-7ACB-A175-2A78D494A041">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:42 UTC</createdTime>
+<generatorID>F0E926A0-F606-C69A-5011-01B4A19C8BBD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<referedAttribute>2B0D2F1C-4638-91BE-6ED1-7721F994E04B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36D39558-5979-46B9-82C0-9934F8B4B9AA" name="Takmicar ucestvuje PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:50:23 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA178467-2605-3A75-2DC2-4085D7667769</attributeRef>
+<attributeRef>3D7D91AE-D380-EEED-DEED-208435F99E88</attributeRef>
+<attributeRef>245EB503-EF9C-7ACB-A175-2A78D494A041</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

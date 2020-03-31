@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8404511-9EF1-2896-35FE-55B3CE88D763" name="Takmicar_ucestvuje">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>86DB5B94-958B-A8D1-1F49-E82D0D39704A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TAKMBRPOB" id="4FC42BE4-2FBB-7208-EE6D-AEB2370470AF">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F77BC678-2CFE-C60E-3EA5-EE605E6E4E75</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Takmicar_TAKMID" id="6078DC73-D5AA-598D-3BF3-03C3FAA75F93">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>CA178467-2605-3A75-2DC2-4085D7667769</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D0C6CFF-4BC8-CCC2-191E-A36689E5057E" referredColumn="DD4AFE5F-48B8-96A7-25AA-31432E0FC0ED"/>
+</associations>
+</Column>
+<Column name="Turnir_TURID" id="731F2584-8BB9-83F0-DD94-792D5256BCD4">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>3D7D91AE-D380-EEED-DEED-208435F99E88</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C66CE189-C0C5-94B4-EBBF-12394627D477" referredColumn="4B51518D-EA84-AA9C-FAA3-D69BDF29E2EB"/>
+</associations>
+</Column>
+<Column name="Turnir_Nacin_igranja_NACIGRID" id="9D3896F6-30D6-5D8F-655A-545193D8AD93">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>245EB503-EF9C-7ACB-A175-2A78D494A041</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C66CE189-C0C5-94B4-EBBF-12394627D477" referredColumn="29BA9900-2418-C6CF-D3F2-CE27E0308875"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C850E6E-3AFD-62F1-697A-12191A7A03B8" name="Takmicar_ucestvuje_PK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>36D39558-5979-46B9-82C0-9934F8B4B9AA</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6078DC73-D5AA-598D-3BF3-03C3FAA75F93"/>
+<colUsage columnID="731F2584-8BB9-83F0-DD94-792D5256BCD4"/>
+<colUsage columnID="9D3896F6-30D6-5D8F-655A-545193D8AD93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A20824D6-9FE9-014A-7793-3367EB1B1242" name="Takmicar_ucestvuje_Turnir_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F0E926A0-F606-C69A-5011-01B4A19C8BBD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731F2584-8BB9-83F0-DD94-792D5256BCD4"/>
+<colUsage columnID="9D3896F6-30D6-5D8F-655A-545193D8AD93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="650B1091-D55B-1A7D-B352-B5EDDD85AD4E" name="Takmicar_ucestvuje_Takmicar_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:52 UTC</createdTime>
+<generatorID>C1A170AD-35CC-04D5-E041-BC388D117765</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6078DC73-D5AA-598D-3BF3-03C3FAA75F93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

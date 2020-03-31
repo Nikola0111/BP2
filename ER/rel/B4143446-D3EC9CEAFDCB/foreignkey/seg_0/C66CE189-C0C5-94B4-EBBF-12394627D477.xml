@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C66CE189-C0C5-94B4-EBBF-12394627D477" containerWithKeyObject="C8404511-9EF1-2896-35FE-55B3CE88D763" localFKIndex="A20824D6-9FE9-014A-7793-3367EB1B1242" name="Takmicar_ucestvuje_Turnir_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>F0E926A0-F606-C69A-5011-01B4A19C8BBD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>Turnir</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>221FEABA-8A14-B613-0A91-9EE5A7F0D38F</referredTableID>
+<keyObject>45CB168A-D313-12C4-0D56-BFA1799F74C9</keyObject>
+<referredKeyID>45CB168A-D313-12C4-0D56-BFA1799F74C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TURID,Nacin_igranja_NACIGRID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

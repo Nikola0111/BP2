@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Je" directorySegmentName="seg_0" id="C578DDB8-4877-8D7C-A7C2-3C7C2BE7E104">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:44:32 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>DDA39F69-F7B5-6090-A0AC-A710C9162FC6</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>mora biti</nameOnSource>
+<nameOnTarget>moze biti</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AEF0A577-AAD3-3ED3-8ABF-EF0242110AB5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>23A4EA82-0580-D2A9-E2A6-B7AB04F6B14D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

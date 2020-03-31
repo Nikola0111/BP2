@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="584E3DF7-8226-C646-7DAB-7601638713AC" containerWithKeyObject="835B87A5-6DB7-43BA-4451-B217D34DE48A" localFKIndex="78B14514-7B0D-D07A-BC0A-F70C6B9D9E24" name="Sahovski_klub_Organizacija_FK">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-27 19:33:51 UTC</createdTime>
+<generatorID>C578DDB8-4877-8D7C-A7C2-3C7C2BE7E104</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>Organizacija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>217DB27C-B2A7-C797-B030-2F2397B575D9</referredTableID>
+<keyObject>98BB94A7-3ECE-72F8-6E5D-A9CD35B4A54F</keyObject>
+<referredKeyID>98BB94A7-3ECE-72F8-6E5D-A9CD35B4A54F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORGID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

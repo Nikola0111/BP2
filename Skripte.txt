@@ -1,0 +1,237 @@
+insert into nacin_igranja values(1,'standard');
+insert into nacin_igranja values(6,'untimed');
+insert into nacin_igranja values(4,'wild');
+insert into nacin_igranja values(12,'armageddon');
+insert into nacin_igranja values(9,'bughouse');
+insert into nacin_igranja values(65,'lightening');
+insert into nacin_igranja values(43,'blitz');
+
+insert into organizacija values(23, 'Knights of the square table', 069877677);
+insert into organizacija values(32, 'McDonalds', 069897627);
+insert into organizacija values(85, 'Burger King', 062877457);
+insert into organizacija values(42, 'KFC', 061217677);
+insert into organizacija values(98, 'Big Bishops', 064237677);
+insert into organizacija values(35, 'The other team', 069897627);
+insert into organizacija values(89, 'Hell bishops', 062877457);
+insert into organizacija values(44, 'The pawn stars', 061217677);
+
+insert into sahovski_klub values(42, 'Knights of the square table', 'Vojvode Misica', 30, 23);
+insert into sahovski_klub values(65, 'The other team', '', 47, 35);
+insert into sahovski_klub values(12, 'Hell bishops', 'Karadjordjeva', 12, 89);
+insert into sahovski_klub values(87, 'The pawn stars', '', 32, 44);
+insert into sahovski_klub values(55, 'Big Bishops','Alekse Santica', 40, 98);
+
+insert into takmicar values(20, 'Magnus', 'Carlsen', 42);
+insert into takmicar values(42, 'Fabiano', 'Caruana', 55);
+insert into takmicar values(89, 'Garry', 'Kasparov', 55);
+insert into takmicar values(12, 'Maxime', 'Vachier-Lagrave', 55);
+insert into takmicar values(66, 'Viswanatan', 'Anand', 65);
+insert into takmicar values(57, 'Anatoly', 'Karpov', 12);
+insert into takmicar values(5, 'Bobby', 'Fisher', 87);
+insert into takmicar values(1, 'Mikhail', 'Tal', 12);
+insert into takmicar values(54, 'Hikaru', 'Nakamura', 87);
+insert into takmicar values(22, 'Levon', 'Aronian', 65);
+insert into takmicar values(88, 'Alexander', 'Grischuk', 42);
+insert into takmicar values(4, 'Paul', 'Morphy', 12);
+insert into takmicar values(68, 'Ding', 'Liren', 65);
+
+insert into lista values(24, 'Standard rank list', 1);
+insert into lista values(42, 'Untimed rank list', 6);
+insert into lista values(50, 'Wild rank list', 4);
+insert into lista values(28, 'Armageddon rank list', 12);
+insert into lista values(32, 'Bughouse rank list', 9);
+insert into lista values(90, 'Lightening rank list', 65);
+insert into lista values(54, 'Blitz rank list', 43);
+
+insert into rangiran values(24, 1, 20, 3000, 3);
+insert into rangiran values(24, 1, 42, 2800, 5);
+insert into rangiran values(24, 1, 54, 2786, 6);
+insert into rangiran values(24, 1, 68, 2476, 7);
+insert into rangiran values(24, 1, 5, 2280, 8);
+insert into rangiran values(24, 1, 4, 2920, 4);
+insert into rangiran values(24, 1, 1, 3050, 2);
+insert into rangiran values(24, 1, 12, 3150, 1);
+
+insert into rangiran values(54, 43, 20, 2970, 3);
+insert into rangiran values(54, 43, 66, 2700, 5);
+insert into rangiran values(54, 43, 22, 2400, 9);
+insert into rangiran values(54, 43, 4, 2900, 4);
+insert into rangiran values(54, 43, 54, 2463, 8);
+insert into rangiran values(54, 43, 89, 2980, 2);
+insert into rangiran values(54, 43, 57, 2100, 10);
+insert into rangiran values(54, 43, 88, 2605, 7);
+insert into rangiran values(54, 43, 42, 2677, 6);
+insert into rangiran values(54, 43, 12, 2090, 11);
+insert into rangiran values(54, 43, 68, 3020, 1);
+
+insert into rangiran values(90, 65, 54, 2350, 9);
+insert into rangiran values(90, 65, 4, 2720, 4);
+insert into rangiran values(90, 65, 22, 2490, 7);
+insert into rangiran values(90, 65, 1, 2570, 5);
+insert into rangiran values(90, 65, 20, 2904, 2);
+insert into rangiran values(90, 65, 57, 3200, 1);
+insert into rangiran values(90, 65, 89, 2400, 8);
+insert into rangiran values(90, 65, 68, 2800, 3);
+insert into rangiran values(90, 65, 42, 2200, 10);
+insert into rangiran values(90, 65, 5, 2520, 6);
+
+insert into turnir values(228, 'Grand Prix',to_date('03-03-2019', 'DD-MM-YYYY'), to_date('20-04-2019', 'DD-MM-YYYY'), 20, 1);
+insert into turnir values(241, 'Tata Steel Tournament',to_date('10-01-2020', 'DD-MM-YYYY'), to_date('25-01-2020', 'DD-MM-YYYY'), 54, 43);
+insert into turnir values(299, 'Grand Chess Tour',to_date('02-04-2018', 'DD-MM-YYYY'), to_date('30-04-2018', 'DD-MM-YYYY'), 68, 43);
+insert into turnir values(232, 'Chess World Cup',to_date('20-05-2018', 'DD-MM-YYYY'), to_date('13-06-2018', 'DD-MM-YYYY'), 20, 43);
+insert into turnir values(250, 'Grand Swiss',to_date('28-02-2019', 'DD-MM-YYYY'), to_date('1-04-2019', 'DD-MM-YYYY'), 1, 65);
+insert into turnir values(288, 'Grand Prix',to_date('08-11-2017', 'DD-MM-YYYY'), to_date('29-12-2017', 'DD-MM-YYYY'), 88, 65);
+insert into turnir values(201, 'Stavanger',to_date('15-08-2019', 'DD-MM-YYYY'), to_date('15-09-2019', 'DD-MM-YYYY'), 20, 65);
+insert into turnir values(259, 'Tata Steel Tournament',to_date('28-04-2018', 'DD-MM-YYYY'), to_date('1-06-2018', 'DD-MM-YYYY'), 89, 1);
+insert into turnir values(218, 'USA Championship',to_date('02-05-2015', 'DD-MM-YYYY'), to_date('23-06-2015', 'DD-MM-YYYY'), 89, 1);
+insert into turnir values(202, 'Stavanger',to_date('19-07-2018', 'DD-MM-YYYY'), to_date('15-08-2018', 'DD-MM-YYYY'), 42, 65);
+
+insert into kolo values (1, 8, 228, 1);
+insert into kolo values (2, 4, 228, 1);
+insert into kolo values (3, 2, 228, 1);
+
+insert into kolo values (1, 16, 241, 43);
+insert into kolo values (2, 8, 241, 43);
+insert into kolo values (3, 4, 241, 43);
+insert into kolo values (4, 2, 241, 43);
+
+insert into kolo values (1, 4, 299, 43);
+insert into kolo values (2, 2, 299, 43);
+
+insert into kolo values (1, 2, 201, 65);
+
+insert into kolo values (1, 8, 218, 1);
+insert into kolo values (2, 4, 218, 1);
+insert into kolo values (3, 2, 218, 1);
+
+insert into kolo values (1, 16, 250, 65);
+insert into kolo values (2, 8, 250, 65);
+insert into kolo values (3, 4, 250, 65);
+insert into kolo values (4, 2, 250, 65);
+
+insert into mec values(174, 34, to_date('04-03-2019','DD-MM-YYYY'), 1, 228, 1, 20);
+insert into mec values(163, 54, to_date('12-03-2019','DD-MM-YYYY'), 1, 228, 1, 68);
+insert into mec values(169, 40, to_date('15-03-2019','DD-MM-YYYY'), 1, 228, 1, 66);
+insert into mec values(170, 20, to_date('20-03-2019','DD-MM-YYYY'), 1, 228, 1, 54);
+
+insert into mec values(183, 45, to_date('15-04-2019','DD-MM-YYYY'), 2, 228, 1, 20);
+insert into mec values(185, 49, to_date('16-04-2019','DD-MM-YYYY'), 2, 228, 1, 66);
+
+insert into mec values(190, 45, to_date('20-04-2019','DD-MM-YYYY'), 3, 228, 1, 20);
+
+insert into mec values(151, 40, to_date('21-01-2020','DD-MM-YYYY'), 1, 241, 43, 54);
+insert into mec values(154, 32, to_date('22-01-2020','DD-MM-YYYY'), 1, 241, 43, 89);
+
+insert into mec values(157, 44, to_date('25-01-2020','DD-MM-YYYY'), 2, 241, 43, 54);
+
+insert into mec values(101, 70, to_date('20-08-2019','DD-MM-YYYY'), 1, 201, 65, 20);
+
+insert into mec values(123, 38, to_date('20-08-2019','DD-MM-YYYY'), 1, 299, 43, 20);
+insert into mec values(124, 47, to_date('20-08-2019','DD-MM-YYYY'), 1, 299, 43, 89);
+
+insert into mec values(123, 23, to_date('20-08-2019','DD-MM-YYYY'), 2, 299, 43, 89);
+
+insert into mec values(131, 59, to_date('01-03-2019','DD-MM-YYYY'), 1, 250, 65, 88);
+insert into mec values(132, 45, to_date('10-03-2019','DD-MM-YYYY'), 1, 250, 65, 66);
+insert into mec values(133, 41, to_date('09-03-2019','DD-MM-YYYY'), 1, 250, 65, 5);
+insert into mec values(134, 51, to_date('28-02-2019','DD-MM-YYYY'), 1, 250, 65, 1);
+
+insert into mec values(136, 41, to_date('27-02-2019','DD-MM-YYYY'), 2, 250, 65, 66);
+insert into mec values(137, 51, to_date('27-03-2019','DD-MM-YYYY'), 2, 250, 65, 1);
+
+insert into mec values(138, 70, to_date('01-04-2019','DD-MM-YYYY'), 3, 250, 65, 1);
+
+insert into takmicar_ucestvuje values(10, 20, 228, 1);
+insert into takmicar_ucestvuje values(4, 68, 228, 1);
+insert into takmicar_ucestvuje values(6, 66, 228, 1);
+insert into takmicar_ucestvuje values(5, 54, 228, 1);
+insert into takmicar_ucestvuje values(3, 57, 228, 1);
+insert into takmicar_ucestvuje values(4, 88, 228, 1);
+insert into takmicar_ucestvuje values(3, 12, 228, 1);
+insert into takmicar_ucestvuje values(1, 22, 228, 1);
+
+insert into takmicar_ucestvuje values(12, 54, 241, 43);
+insert into takmicar_ucestvuje values(4, 88, 241, 43);
+insert into takmicar_ucestvuje values(7, 89, 241, 43);
+insert into takmicar_ucestvuje values(5, 22, 241, 43);
+
+insert into takmicar_ucestvuje values(9, 20, 201, 65);
+insert into takmicar_ucestvuje values(9, 1, 201, 65);
+
+insert into takmicar_ucestvuje values(15, 89, 299, 43);
+insert into takmicar_ucestvuje values(11, 20, 299, 43);
+
+insert into takmicar_ucestvuje values(12, 66, 250, 65);
+insert into takmicar_ucestvuje values(3, 54, 250, 65);
+insert into takmicar_ucestvuje values(5, 5, 250, 65);
+insert into takmicar_ucestvuje values(10, 4, 250, 65);
+insert into takmicar_ucestvuje values(17, 1, 250, 65);
+insert into takmicar_ucestvuje values(11, 42, 250, 65);
+insert into takmicar_ucestvuje values(9, 88, 250, 65);
+insert into takmicar_ucestvuje values(3, 89, 250, 65);
+
+insert into igraju_mec values(20, 174, 1, 228, 1);
+insert into igraju_mec values(57, 174, 1, 228, 1);
+insert into igraju_mec values(12, 163, 1, 228, 1);
+insert into igraju_mec values(68, 163, 1, 228, 1);
+insert into igraju_mec values(88, 169, 1, 228, 1);
+insert into igraju_mec values(66, 169, 1, 228, 1);
+insert into igraju_mec values(22, 170, 1, 228, 1);
+insert into igraju_mec values(54, 170, 1, 228, 1);
+
+insert into igraju_mec values(20, 183, 2, 228, 1);
+insert into igraju_mec values(68, 183, 2, 228, 1);
+insert into igraju_mec values(66, 185, 2, 228, 1);
+insert into igraju_mec values(54, 185, 2, 228, 1);
+
+insert into igraju_mec values(20, 190, 3, 228, 1);
+insert into igraju_mec values(66, 190, 3, 228, 1);
+
+insert into igraju_mec values(54, 151, 1, 241, 43);
+insert into igraju_mec values(88, 151, 1, 241, 43);
+insert into igraju_mec values(89, 154, 1, 241, 43);
+insert into igraju_mec values(22, 154, 1, 241, 43);
+
+insert into igraju_mec values(54, 157, 2, 241, 43);
+insert into igraju_mec values(89, 157, 2, 241, 43);
+
+insert into igraju_mec values(20, 101, 1, 201, 65);
+insert into igraju_mec values(1, 101, 1, 201, 65);
+
+
+insert into igraju_mec values(66, 136, 2, 250, 65);
+insert into igraju_mec values(54, 136, 2, 250, 65);
+
+insert into igraju_mec values(88, 137, 2, 250, 65);
+insert into igraju_mec values(1, 137, 2, 250, 65);
+
+insert into igraju_mec values(66, 138, 3, 250, 65);
+insert into igraju_mec values(1, 138, 3, 250, 65);
+
+insert into takmicar_ucestvuje values(12, 66, 250, 65);
+insert into takmicar_ucestvuje values(3, 54, 250, 65);
+insert into takmicar_ucestvuje values(5, 5, 250, 65);
+insert into takmicar_ucestvuje values(10, 4, 250, 65);
+insert into takmicar_ucestvuje values(17, 1, 250, 65);
+insert into takmicar_ucestvuje values(11, 42, 250, 65);
+insert into takmicar_ucestvuje values(9, 88, 250, 65);
+insert into takmicar_ucestvuje values(3, 89, 250, 65);
+
+create or replace view Prosecni_poeni_i_pobede(Takmicar, Ime, Prezime, Broj_poena, Broj_pobeda) as
+SELECT takmicar.takmid, takmicar.takmime, takmicar.takmprz, count(turnir.turpob), avg(rangiran.brbod)
+from takmicar natural join takmicar_ucestvuje natural join turnir natural join rangiran
+where takmid = turpob 
+and  takmid = takmicar_takmid 
+and turnir_turid = turid 
+and takmid = rltakmicar_takmid 
+and rltakmicar_takmid = takmicar_takmid 
+and nacin_igranja_nacigrid = lista_nacin_igranja_nacigrid
+group by takmicar.takmid, takmicar.takmime, takmicar.takmprz
+
+
+
+
+
+
+
+

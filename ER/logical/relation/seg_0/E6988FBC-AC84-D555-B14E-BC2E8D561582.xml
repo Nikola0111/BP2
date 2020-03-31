@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Organizovana" directorySegmentName="seg_0" id="E6988FBC-AC84-D555-B14E-BC2E8D561582">
+<createdBy>Vaneleey</createdBy>
+<createdTime>2020-01-25 20:47:59 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="B4143446-514D-4415-34DC-D3EC9CEAFDCB" value="true"/>
+</engineerTo>
+<sourcePk>8B2B9232-1924-F13F-789B-740864CE7429</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>je organizovana</nameOnSource>
+<nameOnTarget>organizuje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D94C57A-2452-D11E-6E08-4674148D0375</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BF3DE895-A2E5-108E-89A9-50E79BD7D592</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
